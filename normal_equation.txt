@@ -1,0 +1,16 @@
+when n < 1000 use normal equation, otherwise use gradient descent
+
+n is number of features
+m is number of trials
+X is the (n + 1 by m) matrix of all features for all training data 
+y is the (m length vector) result of all training data
+
+theta is a (n + 1) length vector of the best fit
+
+theta = inv[transpose(X)*X]*transpose(x)*y
+pinv(X’*X)*X’*y
+
+Non-Invertibility
+- Redundant features (length in feet, length in meters)
+- Too many features (m <= n) 
+	- delete some features, regularization 

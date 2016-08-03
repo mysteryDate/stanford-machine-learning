@@ -1,0 +1,18 @@
+SUPERVISED
+
+A set of right answers, looking for a new right answer (regression)
+
+Regression : Continuous Values
+Classification : Discreet values
+
+Support vector machine : Infinite features classification problems 
+
+UNSUPERVISED
+
+No labels/answer, just looking for structure in data
+
+REGRESSION:
+
+m = number of training example
+[x] = input variable/features
+[y] = output variable/features

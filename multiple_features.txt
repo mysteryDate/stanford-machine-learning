@@ -1,0 +1,21 @@
+x_1, x_2, x_3, x_n (our features)
+n = number of features
+x^(i) = input features of the ith training example (a vector of all features)
+x_j^(x) = value of feature j in the ith training example 
+
+h_theta(x) = theta_0*x_0 + t_1*x_1 + … t_n*x_n = theta(transpose) * x
+
+scaling features makes gradient descent work faster
+
+-1 <= x_n <= 1
+
+mean normalize that mean(x) = 0
+
+x = (x - mean) / stdev
+
+look at a plot for gradient descent 
+
+home team’s record, at home, last year, pt diff last game
+visiting team
+
+polynomial regression, just use the square/cube of a present feature 
