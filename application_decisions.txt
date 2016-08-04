@@ -1,0 +1,18 @@
+select order of polynomial fitting
+
+60% training set
+20% cross validation (CV)
+20% test set
+
+for each order polynomial, train and check on cv set, then use test set to generalize error
+
+high variance:
+	- get more training examples
+	- try smaller set of features
+	- increase λ
+
+high bias:
+	- additional features
+	- add polynomial features
+	- decrease λ
+
